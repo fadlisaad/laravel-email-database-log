@@ -1,5 +1,5 @@
 {
-    "name": "shvetsgroup/laravel-email-database-log",
+    "name": "fadlisaad/laravel-email-database-log",
     "description": "A simple database logger for all outgoing emails sent by Laravel website.",
     "keywords": ["laravel", "markdown", "mail"],
     "license": "MIT",
@@ -12,10 +12,15 @@
             "name": "Spaan Productions",
             "email": "info@spaanproductions.nl",
             "role": "Developer"
+        },
+        {
+            "name": "Fadli Saad",
+            "email": "fadlisaad@gmail.com",
+            "role": "Editor"
         }
     ],
     "require": {
-        "php": "^8.0.2",
+        "php": "^7.4",
         "illuminate/support": "^9.0",
         "doctrine/dbal": "^3.3",
         "nesbot/carbon": "^2.0"
