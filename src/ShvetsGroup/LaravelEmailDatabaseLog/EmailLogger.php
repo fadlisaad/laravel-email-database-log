@@ -27,9 +27,9 @@ class EmailLogger
 			'cc' => $this->formatAddressField($message, 'Cc'),
 			'bcc' => $this->formatAddressField($message, 'Bcc'),
 			'subject' => $message->getSubject(),
-			'body' => $message->getBody()->bodyToString(),
+			'body' => null,
 			'headers' => $message->getHeaders()->toString(),
-			'attachments' => $this->saveAttachments($message),
+			'attachments' => null,
 		]);
 	}
 
